@@ -4,7 +4,8 @@
 airflow_settings.yaml
 __pycache__/
 astro
-includes/astronomer-cosmos
+include/astronomer-cosmos
 dbt/**/target/**
 dbt/**/dbt_modules/**
 dbt/**/dbt_packages/**
+dbt/**/.DS_Store
