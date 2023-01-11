@@ -9,3 +9,4 @@ dbt/**/dbt_modules/**
 dbt/**/dbt_packages/**
 dbt/**/.DS_Store
 dbt/**/*.log
+venv/
