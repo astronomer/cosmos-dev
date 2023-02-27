@@ -20,15 +20,16 @@ with DAG(
     catchup=False,
     default_args={"owner": "02-TRANSFORM"},
 ) as dag:
-
     pre_dbt_workflow = EmptyOperator(task_id="pre_dbt_workflow")
 
     jaffle_shop = DbtTaskGroup(
         dbt_project_name="jaffle_shop",
         conn_id="airflow_db",
-        dbt_args={"schema": "public", "dbt_executable_path": "/usr/local/airflow/dbt_venv/bin/dbt"},
-        test_behavior='after_all',
-        dag=dag,
+        dbt_args={
+            "schema": "public",
+            "dbt_executable_path": "/usr/local/airflow/dbt_venv/bin/dbt",
+        },
+        test_behavior="after_all",
     )
 
     post_dbt_workflow = EmptyOperator(task_id="post_dbt_workflow")

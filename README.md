@@ -1,16 +1,36 @@
-# cosmos-dev
+# Overview
 
-This is an Astro CLI project used to develop Cosmos.
+This is an Astro CLI project that demonstrates how to use the astronomer-cosmos package. To get started, clone this repo and run `astro dev start` in this folder to start the project.
 
-## Getting Started
+![DBT Task Group](/static/dbt_task_group.png)
 
-1. Ensure you have the Astro CLI >= 1.8.0 installed
-2. Clone `astronomer/astronomer-cosmos` into the `include/` directory
+# dbt
 
-## Running
+This instance includes a `dbt` folder containing multiple dbt projects, as well as a `dags/dbt` folder that uses the astronomer-cosmos package to run dbt projects as Airflow DAGs.
 
-Run `astro dev start` to start the project. By default, this runs against the Airflow metadata database. To reset the database, run `astro dev kill` and then `astro dev start`.
+There are a few changes made to the default Astro CLI project to support this:
 
-## Examples
+1. Add `gcc` and `python3-dev` to the packages.txt file. These aren't included by default to make the base image smaller, but is required for `astronomer-cosmos`'s underlying packages.
+2. Add `astronomer-cosmos` to the requirements.txt file. This is the package that allows you to run dbt projects as Airflow DAGs.
+3. Add the following to the Dockerfile to run dbt in a virtual environment:
 
-This repo comes with a few examples located in the `dags/` and `dbt/` directories. These are meant to be used as a reference for how to use the various features of Cosmos.
+```Dockerfile
+USER root
+
+# mount the local dbt directory to the container, rw for dbt to write logs
+ADD dbt /usr/local/airflow/dbt
+# make sure the dbt directory is owned by the astro user
+RUN chown -R astro:astro /usr/local/airflow/dbt
+
+USER astro
+
+# install the venv for dbt
+# create and activate the virtual environment
+RUN python -m virtualenv dbt_venv && \
+    source dbt_venv/bin/activate && \
+    # update dbt.postgres to the database you are using
+    pip install astronomer-cosmos[dbt.postgres] && \
+    deactivate
+```
+
+The `dags/` folder contains a few DAGs that demonstrate how to run dbt projects as Airflow DAGs. They're configured to point to the Airflow database (defined in `airflow_settings.yaml`) so they'll work out of the box!

@@ -16,7 +16,11 @@ from airflow.datasets import Dataset
 from airflow.utils.task_group import TaskGroup
 from pendulum import datetime
 
-from cosmos.providers.dbt.core.operators import DbtRunOperationOperator, DbtSeedOperator, DbtDepsOperator
+from cosmos.providers.dbt.core.operators import (
+    DbtDepsOperator,
+    DbtRunOperationOperator,
+    DbtSeedOperator,
+)
 
 with DAG(
     dag_id="extract_dag",
@@ -27,12 +31,15 @@ with DAG(
     max_active_runs=1,
     default_args={"owner": "01-EXTRACT"},
 ) as dag:
-
     project_seeds = [
-        {"project": "jaffle_shop", "seeds": [
-            "raw_customers", "raw_payments", "raw_orders"]},
-        {"project": "attribution-playbook",
-            "seeds": ["customer_conversions", "ad_spend", "sessions"]},
+        {
+            "project": "jaffle_shop",
+            "seeds": ["raw_customers", "raw_payments", "raw_orders"],
+        },
+        {
+            "project": "attribution-playbook",
+            "seeds": ["customer_conversions", "ad_spend", "sessions"],
+        },
         {"project": "mrr-playbook", "seeds": ["subscription_periods"]},
     ]
 
@@ -41,9 +48,9 @@ with DAG(
             DbtDepsOperator(
                 task_id=f"{project['project']}_install_deps",
                 project_dir=f"/usr/local/airflow/dbt/{project['project']}",
-                schema='public',
-                dbt_executable_path='/usr/local/airflow/dbt_venv/bin/dbt',
-                conn_id="airflow_db"
+                schema="public",
+                dbt_executable_path="/usr/local/airflow/dbt_venv/bin/dbt",
+                conn_id="airflow_db",
             )
 
     with TaskGroup(group_id="drop_seeds_if_exist") as drop_seeds:
@@ -55,7 +62,7 @@ with DAG(
                     args={"table_name": seed},
                     project_dir=f"/usr/local/airflow/dbt/{project['project']}",
                     schema="public",
-                    dbt_executable_path='/usr/local/airflow/dbt_venv/bin/dbt',
+                    dbt_executable_path="/usr/local/airflow/dbt_venv/bin/dbt",
                     conn_id="airflow_db",
                 )
 
@@ -66,7 +73,7 @@ with DAG(
                 task_id=f"{name_underscores}_seed",
                 project_dir=f"/usr/local/airflow/dbt/{project}",
                 schema="public",
-                dbt_executable_path='/usr/local/airflow/dbt_venv/bin/dbt',
+                dbt_executable_path="/usr/local/airflow/dbt_venv/bin/dbt",
                 conn_id="airflow_db",
                 outlets=[Dataset(f"SEED://{name_underscores.upper()}")],
             )

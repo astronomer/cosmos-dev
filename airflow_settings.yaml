@@ -14,7 +14,7 @@ airflow:
       conn_login: postgres
       conn_password: postgres
       conn_port: 5432
-      conn_extra: ""
+      conn_extra: ''
   pools:
     - pool_name:
       pool_slot:
