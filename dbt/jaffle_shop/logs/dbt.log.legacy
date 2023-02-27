@@ -1,0 +1,359 @@
+2023-02-08 18:36:29.503426 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 56238), raddr=('142.250.69.234', 443)>
+2023-02-08 18:36:29.508610 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 56242), raddr=('142.250.69.234', 443)>
+2023-02-08 18:36:29.511953 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 56292), raddr=('142.250.69.234', 443)>
+2023-02-08 18:36:45.571530 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 57562), raddr=('142.250.69.234', 443)>
+2023-02-08 18:36:45.576071 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 57604), raddr=('142.250.69.234', 443)>
+2023-02-08 18:36:46.709963 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 57580), raddr=('142.250.69.234', 443)>
+2023-02-08 18:36:46.714067 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 57632), raddr=('142.250.69.234', 443)>
+2023-02-08 18:36:46.807171 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 57570), raddr=('142.250.69.234', 443)>
+2023-02-08 18:36:46.815138 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 57630), raddr=('142.250.69.234', 443)>
+2023-02-08 18:36:59.856943 (MainThread): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 41834), raddr=('142.250.69.234', 443)>
+2023-02-08 18:36:59.864570 (MainThread): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 41852), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:00.187414 (MainThread): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 41814), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:00.204009 (MainThread): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 41842), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:10.889759 (Thread-1): unclosed <ssl.SSLSocket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 54314), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:14.615162 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 42628), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:16.066237 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 42646), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:16.143291 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 42602), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:17.687523 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 54312), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:17.691253 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 54334), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:20.765909 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 42672), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:22.187088 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 42164), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:22.207525 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 42656), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:23.568472 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 42174), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:27.909499 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 42184), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:27.912881 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 42192), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:27.916471 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 42208), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:29.280304 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 42212), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:30.738140 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 42216), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:33.504558 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 50508), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:33.508061 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 50510), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:37.814608 (MainThread): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 50536), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:37.822623 (MainThread): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 50520), raddr=('142.250.69.234', 443)>
+2023-02-08 18:37:37.825848 (MainThread): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 50526), raddr=('142.250.69.234', 443)>
+2023-02-08 18:42:19.752489 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 18:42:19.986909 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 18:42:19.760547 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 18:42:35.535289 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 18:43:02.198720 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 18:43:02.680572 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 18:43:04.117732 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 18:43:23.793103 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 18:43:24.946634 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 18:43:40.548978 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:26:29.023473 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:26:29.705621 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:26:33.236088 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:26:54.360654 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:27:03.028842 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 44226), raddr=('172.217.164.10', 443)>
+2023-02-08 22:27:03.039978 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 44246), raddr=('172.217.164.10', 443)>
+2023-02-08 22:27:08.049134 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 43284), raddr=('172.217.164.10', 443)>
+2023-02-08 22:27:19.416771 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:27:19.389406 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:27:19.843784 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:27:34.763922 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 40262), raddr=('172.217.164.10', 443)>
+2023-02-08 22:27:34.769070 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 40286), raddr=('172.217.164.10', 443)>
+2023-02-08 22:27:36.304976 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 40302), raddr=('172.217.164.10', 443)>
+2023-02-08 22:27:36.316114 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 40352), raddr=('172.217.164.10', 443)>
+2023-02-08 22:27:36.714721 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 40320), raddr=('172.217.164.10', 443)>
+2023-02-08 22:27:36.720858 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 40354), raddr=('172.217.164.10', 443)>
+2023-02-08 22:27:43.919932 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:27:44.418933 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:27:57.127012 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 40370), raddr=('172.217.164.10', 443)>
+2023-02-08 22:27:57.144113 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 40410), raddr=('172.217.164.10', 443)>
+2023-02-08 22:27:58.115824 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 40384), raddr=('172.217.164.10', 443)>
+2023-02-08 22:27:58.141246 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 40414), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:05.415294 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:28:09.884151 (Thread-1): unclosed <ssl.SSLSocket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 44452), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:13.271758 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 37402), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:14.499972 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 37418), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:14.535516 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 37390), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:15.784761 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 44436), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:15.789753 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 44474), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:18.564025 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 37440), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:19.838371 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 37448), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:19.865953 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 37432), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:21.018551 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 37452), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:24.795122 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 47580), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:24.798990 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 47582), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:24.803140 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 47586), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:26.014863 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 47592), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:27.291234 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 47600), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:30.093636 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 47614), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:30.096540 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 47626), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:35.643257 (MainThread): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 46768), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:35.651677 (MainThread): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 47634), raddr=('172.217.164.10', 443)>
+2023-02-08 22:28:35.654661 (MainThread): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.4', 46762), raddr=('172.217.164.10', 443)>
+2023-02-08 22:33:01.811158 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:33:02.767639 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:33:02.929966 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:33:23.916548 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:33:48.899318 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:33:49.648362 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:33:49.663205 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:34:07.610869 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:34:08.682372 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-08 22:34:21.446079 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-10 23:52:30.603545 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-10 23:52:30.862065 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-10 23:52:30.634195 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-10 23:52:40.555176 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-10 23:52:59.805556 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-10 23:52:59.913152 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-10 23:52:59.948397 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-10 23:53:13.367296 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-10 23:53:13.394630 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-10 23:53:25.480323 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 19:11:03.584642 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 21:45:43.534626 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 21:45:43.718930 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 21:45:44.253226 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 21:45:53.081826 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 21:46:11.436793 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 21:46:11.525826 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 21:46:11.556212 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 21:46:24.123044 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 21:46:24.135559 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 21:46:35.696138 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:25:45.149352 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:25:45.328203 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:25:46.987196 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:25:56.046411 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:26:12.754490 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:26:12.806315 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:26:12.995511 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:26:24.354924 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:26:24.512729 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:26:35.540697 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:33:52.136126 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:33:53.659044 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:33:53.668555 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:34:04.427979 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:34:22.962744 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:34:23.499987 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:34:23.491748 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:34:36.548746 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:34:36.565746 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 22:34:48.213370 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-13 23:15:42.090855 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 60368), raddr=('172.217.12.10', 443)>
+2023-02-13 23:15:42.094818 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 60382), raddr=('172.217.12.10', 443)>
+2023-02-13 23:15:42.097736 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 43892), raddr=('172.217.12.10', 443)>
+2023-02-13 23:15:56.900237 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 55686), raddr=('172.217.12.10', 443)>
+2023-02-13 23:15:56.902586 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 55716), raddr=('172.217.12.10', 443)>
+2023-02-13 23:15:57.889305 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 55710), raddr=('172.217.12.10', 443)>
+2023-02-13 23:15:57.892414 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 55748), raddr=('172.217.12.10', 443)>
+2023-02-13 23:15:58.929997 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 55724), raddr=('172.217.12.10', 443)>
+2023-02-13 23:15:58.933618 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 55788), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:09.089017 (MainThread): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 42744), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:09.093506 (MainThread): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 42748), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:09.311449 (MainThread): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 42726), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:09.314446 (MainThread): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 42746), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:17.568381 (Thread-1): unclosed <ssl.SSLSocket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 42916), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:20.947998 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 42974), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:22.389556 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 42976), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:22.410426 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 42952), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:23.493017 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 42910), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:23.496700 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 42936), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:26.461748 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51256), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:27.617410 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51268), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:27.642520 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 43008), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:28.823083 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51270), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:32.789283 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51278), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:32.793286 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51294), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:32.796677 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51298), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:34.141211 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51302), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:35.488845 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51068), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:37.935127 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51078), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:37.938216 (Thread-1): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51088), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:41.741110 (MainThread): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51118), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:41.749032 (MainThread): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51092), raddr=('172.217.12.10', 443)>
+2023-02-13 23:16:41.752407 (MainThread): unclosed <ssl.SSLSocket fd=12, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51102), raddr=('172.217.12.10', 443)>
+2023-02-14 16:40:36.538246 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 16:40:36.953579 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 16:40:37.782384 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 16:40:51.849908 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 16:40:53.811860 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 36106), raddr=('172.217.12.10', 443)>
+2023-02-14 16:40:53.821893 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 56116), raddr=('172.217.12.10', 443)>
+2023-02-14 16:40:59.072508 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 56144), raddr=('172.217.12.10', 443)>
+2023-02-14 16:41:25.616624 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 16:41:25.872104 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 16:41:27.032170 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 16:41:32.267582 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 55542), raddr=('172.217.12.10', 443)>
+2023-02-14 16:41:32.280734 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 55568), raddr=('172.217.12.10', 443)>
+2023-02-14 16:41:32.564310 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 55556), raddr=('172.217.12.10', 443)>
+2023-02-14 16:41:32.573095 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 55582), raddr=('172.217.12.10', 443)>
+2023-02-14 16:41:33.139066 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 55592), raddr=('172.217.12.10', 443)>
+2023-02-14 16:41:33.144583 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 55608), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:02.342498 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 16:42:04.073562 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 16:42:06.994367 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 52524), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:06.998553 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 52536), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:08.064360 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 52544), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:08.067190 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 52592), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:18.690765 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 51990), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:20.357217 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 16:42:23.900804 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 52042), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:23.908006 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 52018), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:23.910964 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 52028), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:25.061507 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 52046), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:28.806073 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 52062), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:28.810736 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 52070), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:28.815582 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 52086), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:31.249267 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 35246), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:32.440800 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 35250), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:33.705812 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 35240), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:33.710152 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 35266), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:34.962922 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 35278), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:36.125091 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 35294), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:37.463974 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 35298), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:40.023714 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 42608), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:41.374668 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 42614), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:42.678977 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 42624), raddr=('172.217.12.10', 443)>
+2023-02-14 16:42:43.935347 (MainThread): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.3', 42632), raddr=('172.217.12.10', 443)>
+2023-02-14 22:40:44.678897 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 22:40:44.508708 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 22:40:45.240013 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 22:41:09.955632 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 22:41:16.897249 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 50236), raddr=('172.217.0.74', 443)>
+2023-02-14 22:41:16.900312 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 50264), raddr=('172.217.0.74', 443)>
+2023-02-14 22:41:22.049655 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 41056), raddr=('172.217.0.74', 443)>
+2023-02-14 22:41:37.977029 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 22:41:37.556458 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 22:41:41.029518 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 22:42:05.811789 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 53066), raddr=('172.217.0.74', 443)>
+2023-02-14 22:42:05.817055 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 53080), raddr=('172.217.0.74', 443)>
+2023-02-14 22:42:07.521481 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 53096), raddr=('172.217.0.74', 443)>
+2023-02-14 22:42:07.535692 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 53108), raddr=('172.217.0.74', 443)>
+2023-02-14 22:42:09.197223 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 53124), raddr=('172.217.0.74', 443)>
+2023-02-14 22:42:09.212263 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 53140), raddr=('172.217.0.74', 443)>
+2023-02-14 22:42:24.067969 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 22:42:25.615320 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 22:42:37.415476 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 35020), raddr=('172.217.0.74', 443)>
+2023-02-14 22:42:37.718101 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 35006), raddr=('172.217.0.74', 443)>
+2023-02-14 22:42:37.726903 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 35052), raddr=('172.217.0.74', 443)>
+2023-02-14 22:42:51.562430 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-14 22:42:58.882413 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 50864), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:04.234029 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 55688), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:04.254014 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 50884), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:04.264627 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 50898), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:05.855514 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 55692), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:09.528131 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 55694), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:09.532891 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 55710), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:09.537062 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 55730), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:12.234104 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 55772), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:13.416362 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 40538), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:14.660254 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 55762), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:14.663380 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 40554), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:15.777723 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 40564), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:17.028081 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 40578), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:18.491252 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 40588), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:20.955808 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 40616), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:22.321180 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 40632), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:23.553334 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 57918), raddr=('172.217.0.74', 443)>
+2023-02-14 22:43:24.771162 (MainThread): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.3', 57932), raddr=('172.217.0.74', 443)>
+2023-02-15 22:38:50.241563 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-15 22:38:51.074498 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-15 22:38:52.210194 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-15 22:39:33.125739 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-15 22:39:47.622769 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 60042), raddr=('172.217.12.10', 443)>
+2023-02-15 22:39:47.630335 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 60054), raddr=('172.217.12.10', 443)>
+2023-02-15 22:39:47.633998 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 60074), raddr=('172.217.12.10', 443)>
+2023-02-15 22:40:11.445314 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-15 22:40:11.342509 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-15 22:40:13.263733 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-15 22:40:19.324528 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51434), raddr=('172.217.12.10', 443)>
+2023-02-15 22:40:19.335083 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51442), raddr=('172.217.12.10', 443)>
+2023-02-15 22:40:19.649122 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51436), raddr=('172.217.12.10', 443)>
+2023-02-15 22:40:19.654626 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51460), raddr=('172.217.12.10', 443)>
+2023-02-15 22:40:20.061840 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51456), raddr=('172.217.12.10', 443)>
+2023-02-15 22:40:20.072186 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 51468), raddr=('172.217.12.10', 443)>
+2023-02-15 22:40:44.253840 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-15 22:40:44.771671 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-15 22:40:48.262422 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 47462), raddr=('172.217.12.10', 443)>
+2023-02-15 22:40:48.265218 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 34204), raddr=('172.217.12.10', 443)>
+2023-02-15 22:40:48.757821 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 34192), raddr=('172.217.12.10', 443)>
+2023-02-15 22:40:48.761031 (Thread-1): unclosed <ssl.SSLSocket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 34228), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:04.410180 (Thread-1): unclosed <ssl.SSLSocket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 46794), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:06.119294 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-15 22:41:09.747741 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 41198), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:09.755741 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 41172), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:09.759536 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 41186), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:10.869433 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 41218), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:14.441814 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 41220), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:14.445241 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 41224), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:14.448580 (Thread-1): unclosed <ssl.SSLSocket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 41240), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:17.304026 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 38820), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:18.578949 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 38832), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:20.063967 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 38810), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:20.075366 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 38838), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:21.647302 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 38850), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:23.038856 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 38864), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:24.587582 (Thread-1): unclosed <ssl.SSLSocket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 38874), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:27.715318 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 46952), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:28.999251 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 46962), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:30.568179 (Thread-1): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 46974), raddr=('172.217.12.10', 443)>
+2023-02-15 22:41:31.999063 (MainThread): unclosed <ssl.SSLSocket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.22.0.4', 46982), raddr=('172.217.12.10', 443)>
+2023-02-17 22:18:26.305837 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-17 22:27:59.689273 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 14:46:24.057146 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 14:59:12.900166 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:24:37.359972 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:28:20.068145 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:31:11.044666 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:41:48.774626 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:41:49.536720 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:41:49.470382 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:42:01.369749 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:42:16.934133 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:42:16.982291 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:42:17.173570 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:48:32.342719 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:48:32.434796 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:48:32.547351 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:48:42.127846 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:48:42.134524 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 15:48:53.286271 (MainThread): You have an incompatible version of 'pyarrow' installed (10.0.1), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 16:36:51.324259 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:36:47.961729 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:38:21.458165 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:38:48.172438 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:40:07.824863 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:45:16.557688 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:49:21.311810 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:50:41.266532 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:58:33.309762 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:58:35.856185 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:58:36.744805 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:58:49.175319 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:59:06.314763 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:59:06.339905 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:59:06.528735 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:59:22.158162 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:59:22.186878 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 17:59:33.278195 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:08:10.081721 (MainThread): The 'warn' method is deprecated, use 'warning' instead
+2023-02-22 19:08:19.114259 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:08:20.087840 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:08:20.172792 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:08:35.966944 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:09:01.293487 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:09:01.594828 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:09:01.587914 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:09:15.964548 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:09:16.066730 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:09:28.098490 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:41:30.145343 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:41:30.435710 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:41:30.579071 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 19:42:45.199369 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 20:35:25.840681 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 20:36:08.377756 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 20:36:08.909353 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 20:36:08.884409 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 20:36:17.227942 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 20:36:32.464782 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 20:36:32.756313 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 20:36:32.992957 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 20:36:45.271872 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 20:36:46.119001 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'
+2023-02-22 20:36:56.984027 (MainThread): You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<8.1.0,>=8.0.0; extra == "pandas"'

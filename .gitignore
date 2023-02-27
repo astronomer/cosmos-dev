@@ -4,9 +4,9 @@
 __pycache__/
 astro
 include/astronomer-cosmos
+include/OpenLineage
 dbt/**/target/**
 dbt/**/dbt_modules/**
-dbt/**/dbt_packages/**
 dbt/**/.DS_Store
 dbt/**/*.log
 venv/

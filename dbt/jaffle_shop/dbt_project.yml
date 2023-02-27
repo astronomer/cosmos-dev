@@ -3,6 +3,9 @@ name: 'jaffle_shop'
 config-version: 2
 version: '0.1'
 
+vars:
+  conn_type: 'postgres'
+
 model-paths: ["models"]
 seed-paths: ["seeds"]
 test-paths: ["tests"]
