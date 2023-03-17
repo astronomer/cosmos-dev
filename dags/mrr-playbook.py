@@ -12,6 +12,7 @@ from pendulum import datetime
 from cosmos.providers.dbt.dag import DbtDag
 
 mrr_playbook = DbtDag(
+    dbt_root_path="/usr/local/airflow/dags/dbt",
     dbt_project_name="mrr-playbook",
     conn_id="airflow_db",
     dbt_args={"schema": "public", "dbt_executable_path": "/usr/local/airflow/dbt_venv/bin/dbt"},

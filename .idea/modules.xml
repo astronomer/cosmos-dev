@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/include/astronomer-cosmos/.idea/astronomer-cosmos.iml" filepath="$PROJECT_DIR$/include/astronomer-cosmos/.idea/astronomer-cosmos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cosmos-dev.iml" filepath="$PROJECT_DIR$/.idea/cosmos-dev.iml" />
+    </modules>
+  </component>
+</project>

@@ -13,6 +13,7 @@ from pendulum import datetime
 from cosmos.providers.dbt.dag import DbtDag
 
 attribution_playbook = DbtDag(
+    dbt_root_path="/usr/local/airflow/dags/dbt",
     dbt_project_name="attribution-playbook",
     conn_id="airflow_db",
     dbt_args={"schema": "public", "dbt_executable_path": "/usr/local/airflow/dbt_venv/bin/dbt"},
