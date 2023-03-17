@@ -38,13 +38,12 @@ for source in sources:
         projects = [
             {
                 "project": "jaffle_shop",
-                "seeds": ["raw_customers", "raw_payments", "raw_orders"],
+                "seeds": ["raw_customers", "raw_payments", "raw_orders"]
             },
             {
                 "project": "attribution-playbook",
-                "seeds": ["customer_conversions", "ad_spend", "sessions"],
-            },
-            {"project": "mrr-playbook", "seeds": ["subscription_periods"]},
+                "seeds": ["customer_conversions", "ad_spend", "sessions"]
+            }
         ]
 
         if conn_type == "redshift":

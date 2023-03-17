@@ -2,6 +2,7 @@
 .env
 .DS_Store # macOS specific ignore
 __pycache__/
+.idea/
 astro
 include/astronomer-cosmos
 include/OpenLineage

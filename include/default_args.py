@@ -1,7 +1,7 @@
 import os
 
 dbt_exec_path = "dbt"
-dbt_root_directory = '/usr/local/airflow/dbt'
+dbt_root_directory = '/usr/local/airflow/dags/dbt'
 
 if os.getenv("ENVIRONMENT", "DEV") == "PROD":
     sources = [
