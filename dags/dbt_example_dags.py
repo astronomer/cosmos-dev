@@ -12,11 +12,12 @@ from airflow.utils.task_group import TaskGroup
 from include.default_args import sources, dbt_root_directory
 from pendulum import datetime
 
-from cosmos.providers.dbt.core.operators import (
-    DbtDepsOperator,
-    DbtRunOperationOperator,
-    DbtSeedOperator,
+from cosmos.providers.dbt.core.operators.local import (
+    DbtDepsLocalOperator,
+    DbtRunOperationLocalOperator,
+    DbtSeedLocalOperator
 )
+
 from cosmos.providers.dbt.task_group import DbtTaskGroup
 
 for source in sources:
@@ -38,11 +39,7 @@ for source in sources:
         projects = [
             {
                 "project": "jaffle_shop",
-                "seeds": ["raw_customers", "raw_payments", "raw_orders"]
-            },
-            {
-                "project": "attribution-playbook",
-                "seeds": ["customer_conversions", "ad_spend", "sessions"]
+                "seeds": ["raw_customers", "raw_payments", "raw_orders"],
             }
         ]
 
@@ -92,7 +89,7 @@ for source in sources:
         for project in projects:
             name_underscores = project["project"].replace("-", "_")
 
-            deps = DbtDepsOperator(
+            deps = DbtDepsLocalOperator(
                 task_id=f"{project['project']}_install_deps",
                 project_dir=f"{dbt_root_directory}/{project['project']}",
                 **dyn_args
@@ -100,7 +97,7 @@ for source in sources:
 
             with TaskGroup(group_id=f"{project['project']}_drop_seeds") as drop_seeds:
                 for seed in project["seeds"]:
-                    DbtRunOperationOperator(
+                    DbtRunOperationLocalOperator(
                         task_id=f"drop_{seed}_if_exists",
                         macro_name="drop_table",
                         args={"table_name": seed, "conn_type": conn_type},
@@ -108,7 +105,7 @@ for source in sources:
                         **dyn_args
                     )
 
-            seed = DbtSeedOperator(
+            seed = DbtSeedLocalOperator(
                 task_id=f"{name_underscores}_seed",
                 project_dir=f"{dbt_root_directory}/{project['project']}",
                 **dyn_args

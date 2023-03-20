@@ -1,3 +1,4 @@
+apache-airflow
 astronomer-providers[amazon]==1.14.0
 apache-airflow-providers-amazon==7.1.0
 apache-airflow-providers-databricks==4.0.0
