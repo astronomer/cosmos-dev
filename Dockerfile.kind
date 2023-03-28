@@ -11,3 +11,6 @@ RUN pip install --no-cache-dir -r dbt-requirements.txt
 
 COPY dags dags
 
+ENV DBT_ROOT_PATH /opt/airflow/dags/dbt
+ENV DBT_EXECUTABLE_PATH /home/airflow/.local/bin/dbt
+

@@ -10,6 +10,7 @@ We're using the dbt seed command here to populate the database for the purpose o
 would be ingesting data from various sources (i.e. sftp, blob like s3 or gcs, http endpoint, database, etc.)
 
 """
+import os
 
 from airflow import DAG
 from airflow.datasets import Dataset
@@ -17,6 +18,11 @@ from airflow.utils.task_group import TaskGroup
 from pendulum import datetime
 
 from cosmos.providers.dbt.core.operators import DbtRunOperationOperator, DbtSeedOperator, DbtDepsOperator
+
+
+DBT_ROOT_PATH = os.getenv("DBT_ROOT_PATH", "/usr/local/airflow/dags/dbt")
+DBT_EXECUTABLE_PATH = os.getenv("DBT_EXECUTABLE_PATH", "/usr/local/airflow/dbt_venv/bin/dbt")
+
 
 with DAG(
     dag_id="extract_dag",
@@ -38,35 +44,38 @@ with DAG(
 
     with TaskGroup(group_id="install_project_deps") as deps_install:
         for project in project_seeds:
+            project_dir = os.path.join(DBT_ROOT_PATH, project['project'])
             DbtDepsOperator(
                 task_id=f"{project['project']}_install_deps",
-                project_dir=f"/opt/airflow/dags/dbt/{project['project']}",
+                project_dir=project_dir,
                 schema='public',
-                dbt_executable_path='/home/airflow/.local/bin/dbt',
+                dbt_executable_path=DBT_EXECUTABLE_PATH,
                 conn_id="airflow_db"
             )
 
     with TaskGroup(group_id="drop_seeds_if_exist") as drop_seeds:
         for project in project_seeds:
+            project_dir = os.path.join(DBT_ROOT_PATH, project['project'])
             for seed in project["seeds"]:
                 DbtRunOperationOperator(
                     task_id=f"drop_{seed}_if_exists",
                     macro_name="drop_table",
                     args={"table_name": seed},
-                    project_dir=f"/opt/airflow/dags/dbt/{project['project']}",
+                    project_dir=project_dir,
                     schema="public",
-                    dbt_executable_path='/home/airflow/.local/bin/dbt',
+                    dbt_executable_path=DBT_EXECUTABLE_PATH,
                     conn_id="airflow_db",
                 )
 
     with TaskGroup(group_id="all_seeds") as create_seeds:
         for project in ["jaffle_shop", "mrr-playbook", "attribution-playbook"]:
+            project_dir = os.path.join(DBT_ROOT_PATH, project)
             name_underscores = project.replace("-", "_")
             DbtSeedOperator(
                 task_id=f"{name_underscores}_seed",
-                project_dir=f"/opt/airflow/dags/dbt/{project}",
+                project_dir=project_dir,
                 schema="public",
-                dbt_executable_path='/home/airflow/.local/bin/dbt',
+                dbt_executable_path=DBT_EXECUTABLE_PATH,
                 conn_id="airflow_db",
                 outlets=[Dataset(f"SEED://{name_underscores.upper()}")],
             )

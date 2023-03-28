@@ -5,12 +5,19 @@ dbt labs as an example project with dummy data to demonstrate a working dbt core
 parser to generate an Airflow TaskGroup from the dbt project folder
 
 """
+import os
+
 from airflow import DAG
 from airflow.datasets import Dataset
 from airflow.operators.empty import EmptyOperator
 from pendulum import datetime
 
 from cosmos.providers.dbt.task_group import DbtTaskGroup
+
+
+DBT_ROOT_PATH = os.getenv("DBT_ROOT_PATH", "/usr/local/airflow/dags/dbt")
+DBT_EXECUTABLE_PATH = os.getenv("DBT_EXECUTABLE_PATH", "/usr/local/airflow/dbt_venv/bin/dbt")
+
 
 with DAG(
     dag_id="jaffle_shop",
@@ -24,12 +31,12 @@ with DAG(
     pre_dbt_workflow = EmptyOperator(task_id="pre_dbt_workflow")
 
     jaffle_shop = DbtTaskGroup(
-        dbt_root_path="/opt/airflow/dags/dbt",
+        dbt_root_path=DBT_ROOT_PATH,
         dbt_project_name="jaffle_shop",
         conn_id="airflow_db",
         dbt_args={
             "schema": "public",
-            "dbt_executable_path": "/home/airflow/.local/bin/dbt"
+            "dbt_executable_path": DBT_EXECUTABLE_PATH
         },
         test_behavior='after_all',
         dag=dag,
