@@ -17,7 +17,7 @@ from airflow.datasets import Dataset
 from airflow.utils.task_group import TaskGroup
 from pendulum import datetime
 
-from cosmos.providers.dbt.core.operators import DbtRunOperationOperator, DbtSeedOperator, DbtDepsOperator
+from cosmos.providers.dbt.core.operators.local import DbtRunOperationLocalOperator, DbtSeedLocalOperator, DbtDepsLocalOperator
 
 
 DBT_ROOT_PATH = os.getenv("DBT_ROOT_PATH", "/usr/local/airflow/dags/dbt")
@@ -45,7 +45,7 @@ with DAG(
     with TaskGroup(group_id="install_project_deps") as deps_install:
         for project in project_seeds:
             project_dir = os.path.join(DBT_ROOT_PATH, project['project'])
-            DbtDepsOperator(
+            DbtDepsLocalOperator(
                 task_id=f"{project['project']}_install_deps",
                 project_dir=project_dir,
                 schema='public',
@@ -57,7 +57,7 @@ with DAG(
         for project in project_seeds:
             project_dir = os.path.join(DBT_ROOT_PATH, project['project'])
             for seed in project["seeds"]:
-                DbtRunOperationOperator(
+                DbtRunOperationLocalOperator(
                     task_id=f"drop_{seed}_if_exists",
                     macro_name="drop_table",
                     args={"table_name": seed},
@@ -71,7 +71,7 @@ with DAG(
         for project in ["jaffle_shop", "mrr-playbook", "attribution-playbook"]:
             project_dir = os.path.join(DBT_ROOT_PATH, project)
             name_underscores = project.replace("-", "_")
-            DbtSeedOperator(
+            DbtSeedLocalOperator(
                 task_id=f"{name_underscores}_seed",
                 project_dir=project_dir,
                 schema="public",

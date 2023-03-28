@@ -4,7 +4,7 @@ USER root
 RUN apt-get update && apt-get install -y git
 USER airflow
 
-RUN pip install -e git+https://github.com/astronomer/astronomer-cosmos@8bce7e253d4b126590259b4b1eb5dbb935ae19f2#egg=astronomer-cosmos
+RUN pip install -e git+https://github.com/astronomer/astronomer-cosmos@f48ed09cbc1eb29102ce23229ac34959f2d969df#egg=astronomer-cosmos
 
 COPY dbt-requirements.txt ./
 RUN pip install --no-cache-dir -r dbt-requirements.txt
