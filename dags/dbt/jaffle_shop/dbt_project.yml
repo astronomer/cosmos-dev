@@ -1,5 +1,5 @@
 name: 'jaffle_shop'
-
+profile: postgres_profile
 config-version: 2
 version: '0.1'
 

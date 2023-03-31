@@ -15,8 +15,13 @@ from airflow import DAG
 from airflow.datasets import Dataset
 from airflow.utils.task_group import TaskGroup
 from pendulum import datetime
+from cosmos.providers.dbt.core.operators.docker import DbtRunOperationDockerOperator, DbtSeedDockerOperator
 
-from cosmos.providers.dbt.core.operators import DbtRunOperationOperator, DbtSeedOperator, DbtDepsOperator
+
+DBT_ROOT_PATH = os.getenv("DBT_ROOT_PATH", "/usr/local/airflow/dags/dbt")
+DBT_EXECUTABLE_PATH = os.getenv("DBT_EXECUTABLE_PATH", "/usr/local/airflow/dbt_venv/bin/dbt")
+
+DBT_IMAGE = "dbt_dags:latest"
 
 with DAG(
     dag_id="extract_dag",
@@ -35,16 +40,6 @@ with DAG(
             "seeds": ["customer_conversions", "ad_spend", "sessions"]},
         {"project": "mrr-playbook", "seeds": ["subscription_periods"]},
     ]
-
-    with TaskGroup(group_id="install_project_deps") as deps_install:
-        for project in project_seeds:
-            DbtDepsOperator(
-                task_id=f"{project['project']}_install_deps",
-                project_dir=f"/usr/local/airflow/dags/dbt/{project['project']}",
-                schema='public',
-                dbt_executable_path='/usr/local/airflow/dbt_venv/bin/dbt',
-                conn_id="airflow_db"
-            )
 
     with TaskGroup(group_id="drop_seeds_if_exist") as drop_seeds:
         for project in project_seeds:
@@ -71,4 +66,4 @@ with DAG(
                 outlets=[Dataset(f"SEED://{name_underscores.upper()}")],
             )
 
-    deps_install >> drop_seeds >> create_seeds
+    drop_seeds >> create_seeds

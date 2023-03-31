@@ -1,0 +1,67 @@
+# astronomer-cosmos 0.4.3.dev0
+bigquery_profile:
+  outputs:
+    dev:
+      dataset: '{{ env_var(''BIGQUERY_DATASET'') }}'
+      keyfile_json:
+        auth_provider_x509_cert_url: '{{ env_var(''BIGQUERY_AUTH_PROVIDER_X509_CERT_URL'')
+          }}'
+        auth_uri: '{{ env_var(''BIGQUERY_AUTH_URI'') }}'
+        client_email: '{{ env_var(''BIGQUERY_CLIENT_EMAIL'') }}'
+        client_id: '{{ env_var(''BIGQUERY_CLIENT_ID'') }}'
+        client_x509_cert_url: '{{ env_var(''BIGQUERY_CLIENT_X509_CERT_URL'') }}'
+        private_key: '{{ env_var(''BIGQUERY_PRIVATE_KEY'') }}'
+        private_key_id: '{{ env_var(''BIGQUERY_PRIVATE_KEY_ID'') }}'
+        project_id: '{{ env_var(''BIGQUERY_PROJECT_ID'') }}'
+        token_uri: '{{ env_var(''BIGQUERY_TOKEN_URI'') }}'
+        type: '{{ env_var(''BIGQUERY_TYPE'') }}'
+      method: service-account-json
+      project: '{{ env_var(''BIGQUERY_PROJECT'') }}'
+      type: bigquery
+  target: dev
+databricks_profile:
+  outputs:
+    dev:
+      catalog: '{{ env_var(''DATABRICKS_CATALOG'') }}'
+      host: '{{ env_var(''DATABRICKS_HOST'') }}'
+      http_path: '{{ env_var(''DATABRICKS_HTTP_PATH'') }}'
+      schema: '{{ env_var(''DATABRICKS_SCHEMA'') }}'
+      token: '{{ env_var(''DATABRICKS_TOKEN'') }}'
+      type: databricks
+  target: dev
+postgres_profile:
+  outputs:
+    dev:
+      dbname: '{{ env_var(''POSTGRES_DATABASE'') }}'
+      host: '{{ env_var(''POSTGRES_HOST'') }}'
+      pass: '{{ env_var(''POSTGRES_PASSWORD'') }}'
+      port: '{{ env_var(''POSTGRES_PORT'') | as_number }}'
+      schema: '{{ env_var(''POSTGRES_SCHEMA'') }}'
+      type: postgres
+      user: '{{ env_var(''POSTGRES_USER'') }}'
+  target: dev
+redshift_profile:
+  outputs:
+    dev:
+      dbname: '{{ env_var(''REDSHIFT_DATABASE'') }}'
+      host: '{{ env_var(''REDSHIFT_HOST'') }}'
+      password: '{{ env_var(''REDSHIFT_PASSWORD'') }}'
+      port: '{{ env_var(''REDSHIFT_PORT'') | as_number }}'
+      ra3_node: true
+      schema: '{{ env_var(''REDSHIFT_SCHEMA'') }}'
+      type: redshift
+      user: '{{ env_var(''REDSHIFT_USER'') }}'
+  target: dev
+snowflake_profile:
+  outputs:
+    dev:
+      account: '{{ env_var(''SNOWFLAKE_ACCOUNT'') }}'
+      client_session_keep_alive: false
+      database: '{{ env_var(''SNOWFLAKE_DATABASE'') }}'
+      password: '{{ env_var(''SNOWFLAKE_PASSWORD'') }}'
+      role: '{{ env_var(''SNOWFLAKE_ROLE'') }}'
+      schema: '{{ env_var(''SNOWFLAKE_SCHEMA'') }}'
+      type: snowflake
+      user: '{{ env_var(''SNOWFLAKE_USER'') }}'
+      warehouse: '{{ env_var(''SNOWFLAKE_WAREHOUSE'') }}'
+  target: dev
