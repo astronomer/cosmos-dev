@@ -51,7 +51,7 @@ with DAG(
                     args={"table_name": seed},
                     project_dir=project_dir,
                     schema="public",
-                    dbt_executable_path='/usr/local/airflow/dbt_venv/bin/dbt',
+                    dbt_executable_path=DBT_EXECUTABLE_PATH,
                     conn_id="airflow_db",
                 )
 
@@ -63,7 +63,7 @@ with DAG(
                 task_id=f"{name_underscores}_seed",
                 project_dir=project_dir,
                 schema="public",
-                dbt_executable_path='/usr/local/airflow/dbt_venv/bin/dbt',
+                dbt_executable_path=DBT_EXECUTABLE_PATH,
                 conn_id="airflow_db",
                 outlets=[Dataset(f"SEED://{name_underscores.upper()}")],
             )
