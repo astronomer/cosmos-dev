@@ -10,6 +10,7 @@ We're using the dbt seed command here to populate the database for the purpose o
 would be ingesting data from various sources (i.e. sftp, blob like s3 or gcs, http endpoint, database, etc.)
 
 """
+import os
 
 from airflow import DAG
 from airflow.datasets import Dataset
@@ -18,7 +19,7 @@ from pendulum import datetime
 from cosmos.providers.dbt.core.operators.docker import DbtRunOperationDockerOperator, DbtSeedDockerOperator
 
 
-DBT_ROOT_PATH = os.getenv("DBT_ROOT_PATH", "/usr/local/airflow/dags/dbt")
+DBT_ROOT_PATH = os.getenv("DBT_ROOT_PATH", "dags/dbt")
 DBT_EXECUTABLE_PATH = os.getenv("DBT_EXECUTABLE_PATH", "/usr/local/airflow/dbt_venv/bin/dbt")
 
 DBT_IMAGE = "dbt_dags:latest"
@@ -45,7 +46,7 @@ with DAG(
         for project in project_seeds:
             project_dir = os.path.join(DBT_ROOT_PATH, project['project'])
             for seed in project["seeds"]:
-                DbtRunOperationOperator(
+                DbtRunOperationDockerOperator(
                     task_id=f"drop_{seed}_if_exists",
                     macro_name="drop_table",
                     args={"table_name": seed},
@@ -53,19 +54,23 @@ with DAG(
                     schema="public",
                     dbt_executable_path=DBT_EXECUTABLE_PATH,
                     conn_id="airflow_db",
+                    image=DBT_IMAGE,
+                    network_mode="bridge",
                 )
 
     with TaskGroup(group_id="all_seeds") as create_seeds:
         for project in ["jaffle_shop", "mrr-playbook", "attribution-playbook"]:
-            project_dir = os.path.join(DBT_ROOT_PATH, project['project'])
+            project_dir = os.path.join(DBT_ROOT_PATH, project)
             name_underscores = project.replace("-", "_")
-            DbtSeedOperator(
+            DbtSeedDockerOperator(
                 task_id=f"{name_underscores}_seed",
                 project_dir=project_dir,
                 schema="public",
                 dbt_executable_path=DBT_EXECUTABLE_PATH,
                 conn_id="airflow_db",
                 outlets=[Dataset(f"SEED://{name_underscores.upper()}")],
+                image=DBT_IMAGE,
+                network_mode="bridge",
             )
 
     drop_seeds >> create_seeds
