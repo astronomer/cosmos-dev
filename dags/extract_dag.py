@@ -43,12 +43,13 @@ with DAG(
 
     with TaskGroup(group_id="drop_seeds_if_exist") as drop_seeds:
         for project in project_seeds:
+            project_dir = os.path.join(DBT_ROOT_PATH, project['project'])
             for seed in project["seeds"]:
                 DbtRunOperationOperator(
                     task_id=f"drop_{seed}_if_exists",
                     macro_name="drop_table",
                     args={"table_name": seed},
-                    project_dir=f"/usr/local/airflow/dags/dbt/{project['project']}",
+                    project_dir=project_dir,
                     schema="public",
                     dbt_executable_path='/usr/local/airflow/dbt_venv/bin/dbt',
                     conn_id="airflow_db",
@@ -56,10 +57,11 @@ with DAG(
 
     with TaskGroup(group_id="all_seeds") as create_seeds:
         for project in ["jaffle_shop", "mrr-playbook", "attribution-playbook"]:
+            project_dir = os.path.join(DBT_ROOT_PATH, project['project'])
             name_underscores = project.replace("-", "_")
             DbtSeedOperator(
                 task_id=f"{name_underscores}_seed",
-                project_dir=f"/usr/local/airflow/dags/dbt/{project}",
+                project_dir=project_dir,
                 schema="public",
                 dbt_executable_path='/usr/local/airflow/dbt_venv/bin/dbt',
                 conn_id="airflow_db",
