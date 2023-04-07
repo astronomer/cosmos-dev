@@ -63,15 +63,15 @@ with DAG(
         dbt_root_path="./dags/dbt/",
         conn_id="postgres_default",
         execution_mode="kubernetes",
-        dbt_args={
-            "schema": "public",
+        operator_args={
             "image": "dbt-jaffle-shop:0.0.7",
-            "project_dir": PROJECT_DIR,
             "get_logs": True,
-            "conn_id": "postgres_default",
-            "image": "dbt-jaffle-shop:0.0.7",
             "is_delete_operator_pod": False,
             "secrets": [postgres_password_secret, postgres_host_secret]
+        },
+        dbt_args={
+            "schema": "public",
+            "project_dir": PROJECT_DIR,
         }
     )
 

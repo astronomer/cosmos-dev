@@ -8,11 +8,13 @@ ENV POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
 ENV POSTGRES_HOST=${POSTGRES_HOST}
 
 # TO REMOVE:
-RUN mkdir -p dags/dbt/jaffle_shop
-COPY . dags/dbt/jaffle_shop
+#RUN mkdir -p dags/dbt/jaffle_shop
+#COPY . dags/dbt/jaffle_shop
 
+# Copy the DBT profile
 RUN mkdir /root/.dbt
 COPY profiles.yml /root/.dbt/profiles.yml
 
+# Copy the DBT project-specific files
 COPY . .
 
